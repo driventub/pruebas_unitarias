@@ -21,21 +21,7 @@ class HanoiTest {
 		
 		
 		
-		String sol="3	0	0\n"
-				+ "paso n:1\n"
-				+ "2	0	1\n"
-				+ "paso n:2\n"
-				+ "1	1	1\n"
-				+ "paso n:3\n"
-				+ "1	2	0\n"
-				+ "paso n:4\n"
-				+ "0	2	1\n"
-				+ "paso n:5\n"
-				+ "1	1	1\n"
-				+ "paso n:6\n"
-				+ "1	0	2\n"
-				+ "paso n:7\n"
-				+ "0	0	3";
+		String sol="3	0	0\npaso n:1\n2	0	1\npaso n:2\n1	1	1\npaso n:3\n1	2	0\npaso n:4\n0	2	1\npaso n:5\n1	1	1\npaso n:6\n1	0	2\npaso n:7\n0	0	3";
 		
 		assertEquals(sol, hanoiTower.inicio(3));
 	}
