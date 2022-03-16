@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class ProyectoSpringJpaPaApplication implements CommandLineRunner {
+	
 	private static final Logger LOG = LoggerFactory.getLogger(ProyectoSpringJpaPaApplication.class);
 
 	public static void main(String[] args) {
@@ -16,6 +17,8 @@ public class ProyectoSpringJpaPaApplication implements CommandLineRunner {
 	}
 
 	@Override
-	public void run(String... args) throws Exception {	}
+	public void run(String... args) throws Exception {
+
+	}
 
 }
