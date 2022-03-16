@@ -23,7 +23,7 @@ class OperacionesServiceImplTest {
 	
 	@Test
 	void testRealizarRetiro() {
-		assertEquals( new BigDecimal("1832.27"), this.operaciones.realizarRetiro("1234429-3", new BigDecimal("2.00")));
+		assertEquals( new BigDecimal("1830.00"), this.operaciones.realizarRetiro("7893232-1", new BigDecimal("170.00")));
 	}
 
 }
